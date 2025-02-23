@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: "Fleur De Leah", serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+.container {
+  max-width: 600px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.cat {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(222, 49, 99);
+  color: white;
+  margin-top: 20px;
+}
+
+#yes {
+  position: relative;
+  margin-right: 20px;
+}
+
+#no {
+  transition: 0.2s;
+  position: absolute;
+}
