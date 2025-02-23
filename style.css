@@ -1,13 +1,13 @@
 body {
   text-align: center;
   font-family: "Fleur De Leah", serif;
-  font-size: 50px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   background-color: pink;
 }
 
@@ -19,9 +19,11 @@ body {
 
 .cat {
   height: 200px;
-  width: 200px;
+  width: 300px;
   margin-top: 50px;
   margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 button {
@@ -33,14 +35,17 @@ button {
   background-color: rgb(222, 49, 99);
   color: white;
   margin-top: 20px;
+  margin-right: 100px;
 }
 
 #yes {
   position: relative;
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 
 #no {
   transition: 0.2s;
   position: absolute;
+  margin-left: 0px;
 }
